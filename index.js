@@ -8,6 +8,6 @@ function superbowlWin = Array => {
   let winner = Array.find( game => game.result === "W")
   if(winner) = {
     return winner.year
-  } else
+  }else
   return undefined
 }
